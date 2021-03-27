@@ -2,7 +2,6 @@
 A diet logger built with ASP.NET and other technologies.
 
 ## Basic Requirements:
-
 - The user can:
   - Add new food items
   - Add or edit nutrition facts for food items
@@ -11,3 +10,14 @@ A diet logger built with ASP.NET and other technologies.
 - Track daily calories, protein, fat, carbs, fiber, vitamins, etc.
 - Set targets for calories, protein, etc.
 - Track hours of sleep
+
+## Architecture:
+I chose a single-page application (SPA) architecture for the following reasons:
+- The user interface has to be easily scalable for new features
+- The application must expose an API for the possibility of a mobile app
+
+## Technologies:
+- .NET 5.0
+- ASP.NET Core
+- Blazor
+- SQL Server Compact
