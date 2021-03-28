@@ -1,36 +1,8 @@
 ### Design ###
 Notes/
 
-### Angular ###
-## Angular ##
-# compiled output
-dist/
-tmp/
-app/**/*.js
-app/**/*.js.map
-
-# dependencies
-node_modules/
-bower_components/
-
-# IDEs and editors
-.idea/
-
-# misc
-.sass-cache/
-connect.lock/
-coverage/
-libpeerconnection.log/
-npm-debug.log
-testem.log
-typings/
-
-# e2e
-e2e/*.js
-e2e/*.map
-
-# System Files
-.DS_Store/
+# Created by https://www.toptal.com/developers/gitignore/api/vscode,dotnetcore,aspnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,dotnetcore,aspnetcore
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -159,6 +131,7 @@ nCrunchTemp_*
 AutoTest.Net/
 
 # Web workbench (sass)
+.sass-cache/
 
 # Installshield output folder
 [Ee]xpress/
@@ -230,6 +203,7 @@ ClientBin/
 *.jfm
 *.pfx
 *.publishsettings
+node_modules/
 orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line to ignore bower_components
@@ -287,6 +261,7 @@ paket-files/
 .fake/
 
 # JetBrains Rider
+.idea/
 *.sln.iml
 
 # CodeRush
@@ -299,6 +274,15 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/
 
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
+
 ### vscode ###
 .vscode/*
 !.vscode/settings.json
@@ -307,4 +291,4 @@ __pycache__/
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,angular,aspnetcore
+# End of https://www.toptal.com/developers/gitignore/api/vscode,dotnetcore,aspnetcore
