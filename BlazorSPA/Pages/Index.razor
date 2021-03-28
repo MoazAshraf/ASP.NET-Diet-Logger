@@ -1,5 +1,15 @@
-﻿@page "/home"
+﻿@page "/"
+@layout EmptyLayout
 
-<h1>Diet Logger</h1>
-Keep track of your diet and more.
-<SurveyPrompt Title="How is Blazor working for you?" />
+<div class="landing-body d-flex align-items-center vh-100">
+    <div class="container-fluid">
+        <div class="text-center">
+            <h1 class="landing-title">Diet Logger</h1>
+            <p class="landing-subtitle">Keep track of your diet and more.</p>
+            <div class="mt-4">
+                <button class="btn btn-primary btn-lg mr-2">Log In</button>
+                <button class="btn btn-secondary btn-lg ml-2">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
