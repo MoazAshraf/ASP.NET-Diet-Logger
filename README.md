@@ -19,5 +19,5 @@ I chose a single-page application (SPA) architecture for the following reasons:
 ## Technologies:
 - .NET 5.0
 - ASP.NET Core
-- Blazor
+- Angular
 - SQL Server Compact
